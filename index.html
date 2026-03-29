@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Terminal</title>
+  <meta charset="UTF-8">
+  <title>Yasmeen 💖</title>
 
-<style>
-body {
-  background-color: black;
-  color: #00ff00;
-  font-family: monospace;
-  padding: 20px;
-}
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: Arial;
+      text-align: center;
+      color: #333;
+    }
 
-.terminal {
-  max-width: 800px;
-}
+    h1 {
+      margin-top: 100px;
+      font-size: 50px;
+    }
 
-.line::before {
-  content: "yasmeen@mac:~$ ";
-  color: #00ffff;
-}
+    p {
+      font-size: 20px;
+    }
 
-.blink {
-  display: inline-block;
-  width: 10px;
-  background: #00ff00;
-  animation: blink 1s infinite;
-}
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      background: black;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+    }
 
-@keyframes blink {
-  50% { opacity: 0; }
-}
-</style>
-
+    button:hover {
+      background: #444;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="terminal">
+  <h1>Welcome Yasmeen 💖</h1>
+  <p>This is your first website 🎉</p>
 
-<div class="line">git clone https://github.com/project</div>
-<div>Cloning into 'project'...</div>
-<div>remote: Counting objects: 100% (50/50)</div>
-<div>Receiving objects: 100% ✔</div>
+  <button onclick="sayHi()">Click me 😍</button>
 
-<br>
-
-<div class="line">cd project</div>
-<div class="line">bash install.sh</div>
-
-<br>
-
-<div class="line">Done ✔</div>
-
-<br>
-
-<div class="line">_ <span class="blink"></span></div>
-
-</div>
+  <script>
+    function sayHi() {
+      alert("Welcome ya Yasmeen 💖🔥");
+    }
+  </script>
 
 </body>
 </html>
